@@ -1,0 +1,66 @@
+VoteSites:
+  Planet_Minecraft:
+    Enabled: true
+    Name: Planet Minecraft
+    ServiceSite: planetminecraft.com
+    VoteURL: https://www.planetminecraft.com/server/staticmc-survival-creative/vote/
+    VoteDelay: 24
+    Rewards:
+      Messages:
+        Player: '&aThanks for voting on %ServiceSite%!'
+  MinecraftServersList:
+    Enabled: true
+    ServiceSite: MinecraftServersList
+    VoteURL: https://minecraft-server-list.com/server/439870/vote/
+    VoteDelay: 9
+    Rewards:
+      Messages:
+        Player: '&aThanks for voting on %ServiceSite%!'
+  TopMinecraftServers:
+    Enabled: true
+    ServiceSite: TopMinecraftServers
+    VoteURL: https://topg.org/Minecraft/in-513267
+    VoteDelay: 24
+    Rewards:
+      Messages:
+        Player: '&aThanks for voting on %ServiceSite%!'
+  Minecraft-MP_com:
+    Enabled: true
+    ServiceSite: Minecraft-MP.com
+    VoteURL: https://minecraft-mp.com/server/222085/vote/
+    VoteDelay: 24
+    Item:
+      Material: diamond
+      Amount: 1
+    Rewards:
+      Messages:
+        Player: '&aThanks for voting on %ServiceSite%!'
+  Minecraftservers:
+    org:
+      Enabled: true
+      ServiceSite: minecraftservers.org
+      VoteURL: https://minecraftservers.org/server/550478
+      VoteDelay: 24
+      Item:
+        Material: GRASS
+        Amount: 1
+      Rewards:
+        Messages:
+          Player: '&aThanks for voting on %ServiceSite%!'
+  TopG_org:
+    Enabled: true
+    ServiceSite: TopG.org
+    VoteURL: VoteURL
+    VoteDelay: 24
+    Item:
+      Material: GRASS
+      Amount: 1
+    Rewards:
+      Messages:
+        Player: '&aThanks for voting on %ServiceSite%!'
+EverySiteReward:
+  Commands:
+    console:
+    - 'cr give to %player% vote'
+  Messages:
+    Player: '&aThanks for voting on %ServiceSite%!'
